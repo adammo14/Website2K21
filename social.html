@@ -1,0 +1,27 @@
+<md-content id="" class="md-padding social-menu" layout="column" style="overflow: unset !important;" ng-cloak>
+  <md-fab-speed-dial ng-hide="demo.hidden" md-direction="down" md-open="demo.isClosed" class="md-fling md-fab-top-right" ng-class="{ 'md-hover-full': demo.hover }" ng-mouseenter="demo.isOpen=true" ng-mouseleave="demo.isOpen=false">
+    <md-fab-trigger>
+      <md-button aria-label="menu" class="md-fab md-warn">
+        <md-tooltip md-direction="left" md-visible="tooltipVisible">My Links</md-tooltip>
+        <md-icon md-svg-src="../images/arrow-down-solid.svg" aria-label="menu"></md-icon>
+      </md-button>
+    </md-fab-trigger>
+
+    <md-fab-actions>
+      <md-button aria-label="{{item.name}}" class="md-fab md-raised md-mini" ng-click="demo.openDialog($event, item)">
+        <md-tooltip md-direction="left" md-visible="tooltipVisible" md-autohide="false">LinkedIn</md-tooltip>
+        <a target="_blank" href="https://www.linkedin.com/in/adam-chmielewski14/"><md-icon  md-svg-src="../images/linkedin-brands.svg" aria-label="{{item.name}}"></md-icon></a>
+      </md-button>
+
+      <md-button aria-label="{{item.name}}" class="md-fab md-raised md-mini" ng-click="demo.openDialog($event, item)">
+        <md-tooltip md-direction="left" md-visible="tooltipVisible" md-autohide="false">GitHub</md-tooltip>
+        <a target="_blank" href="https://github.com/adammo14?tab=repositories"><md-icon md-svg-src="../images/github-square-brands.svg" aria-label="{{item.name}}"></md-icon></a>
+      </md-button>
+
+      <md-button aria-label="{{item.name}}" class="md-fab md-raised md-mini" ng-click="demo.openDialog($event, item)">
+        <md-tooltip md-direction="left" md-visible="tooltipVisible" md-autohide="false">CodePen</md-tooltip>
+        <a target="_blank" href="https://codepen.io/adamsky94/"><md-icon md-svg-src="../images/codepen-brands.svg" aria-label="{{item.name}}"></md-icon></a>
+      </md-button>
+    </md-fab-actions>
+  </md-fab-speed-dial>
+</md-content>

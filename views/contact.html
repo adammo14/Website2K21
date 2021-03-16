@@ -1,0 +1,44 @@
+<div class="contact-wrapper">
+  <div class="container">
+    <!-- New Contact form -->
+    <form id="contact" name="contactForm" novalidate method="post" action="/contact">
+      <h3>Let's talk</h3>
+      <h4 class="text-white">I repond to all enquires within 24 hours.</h4>
+
+      <!-- Name -->
+      <md-input-container>
+        <label>Your Name</label>
+        <input name="name" ng-model="name" ng-required="true" md-maxlength="25" minlength="1">
+        <div ng-messages="contactForm.name.$error" ng-show="contactForm.name.$dirty">
+          <div ng-message="required">This is required!</div>
+          <div ng-message="md-maxlength">That's too long!</div>
+          <div ng-message="minlength">That's too short!</div>
+        </div>
+      </md-input-container>
+
+      <!-- Email -->
+      <md-input-container>
+        <label>Email</label>
+        <input name="email" ng-model="email" ng-required="true"></input>
+      </md-input-container>
+
+      <!-- Phone Number -->
+      <md-input-container>
+        <label>Phone Number</label>
+        <input name="tel" ng-model="tel" ng-required="true"></input>
+      </md-input-container>
+
+      <!-- Enquiry Type -->
+
+      <!-- Message -->
+      <md-input-container class="md-block">
+        <label>Message</label>
+        <textarea name="message" ng-model="user.message" md-maxlength="300" rows="5" md-select-on-focus="" ng-required="true"></textarea>
+      </md-input-container>
+
+      <fieldset>
+        <button ng-disabled="contactForm.$invalid" name="submit" type="submit" class="button type1 neon">Send it!</button>
+      </fieldset>
+    </form>
+  </div>
+</div>

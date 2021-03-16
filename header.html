@@ -1,0 +1,14 @@
+<div ng-controller="portfolioController">
+    <div class="block" ng-click="toggleMenu()" ng-class="{moveBtn: isMenuOpen}">
+        <div class="cta" ng-class="{active: isMenuOpen}">
+          <div class="toggle-btn type9"></div>
+        </div>
+      </div>
+      
+      <div id="side-menu" class="side-nav" ng-class="{menuOpen: isMenuOpen}">
+        <a id="backToLandingBtn" class="menu-link" href="/" ng-click="toggleMenu()">Home</a>
+        <a class="menu-link" href="/about" ng-click="toggleMenu()">About Me</a>
+        <a class="menu-link" href="/home" ng-click="toggleMenu()">My Projects</a>
+        <a class="menu-link" href="/contact" ng-click="toggleMenu()">Get in Touch</a>
+      </div>
+</div>

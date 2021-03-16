@@ -1,0 +1,110 @@
+[{
+  "id": 1,
+  "title": "Oxygen Graphics",
+  "category": "Web development / Wordpress",
+  "date": 2019,
+  "image": ["../images/Oxygen.png", "../images/Oxygen2.png", "../images/Oxygen3.png"],
+  "projectSource": "http://oxygen2018.uk.w3pcloud.com",
+  "background-color": "#89cc4f",
+  "description": "I joined Oxygen Graphics immediately after finishing my degree and took on a role of Web Developer. I mainly worked with WordPress to design, build and maintain websites for external clients. My biggest achievement during that time was building a new company website which used a more user friendly and responsive design."
+},
+{
+  "id": 2,
+  "title": "Utility Mapping UK",
+  "category": "Web development / Wordpress",
+  "date": 2018,
+  "image": ["../images/U-map.png", "../images/U-map2.png", "../images/U-map3.png"],
+  "projectSource": "https://www.u-map.co.uk/",
+  "background-color": "#03a3d8"
+},
+{
+  "id": 3,
+  "title": "Trailing Lights Project",
+  "category": "University Assignment",
+  "date": 2016,
+  "image": ["../images/trailing-lights1.jpg", "../images/trailing-lights2.jpg", "../images/trailing-lights3.jpg"],
+  "projectSource": "https://imgur.com/a/YTlva",
+  "background-color": "tomato"
+},
+{
+  "id": 4,
+  "title": "Personality chatroom",
+  "category": "University Assignment",
+  "date": 2018,
+  "image": ["images/ChatApp.png", "images/ChatApp2.png", "images/ChatApp3.png"],
+  "projectSource": "https://www.u-map.co.uk/",
+  "background-color": "#545454"
+},
+{
+  "id": 5,
+  "title": "GR Repairs",
+  "category": "Web development / Wordpress",
+  "date": 2019,
+  "image": ["images/GRrepairs.png", "images/GRrepairs2.png", "images/GRrepairs3.png"],
+  "projectSource": "http://grrepairs.uk.w3pcloud.com/",
+  "background-color": "#333b40"
+},
+{
+  "id": 6,
+  "title": "Capital Specialist Solutions",
+  "category": "Web development / Wordpress",
+  "date": 2019,
+  "image": ["images/cssImage.png", "images/css2Image.png", "images/css3Image.png"],
+  "projectSource": "http://css.uk.w3pcloud.com/",
+  "background-color": "#f39200"
+},
+{
+  "id": 7,
+  "title": "Prezzybox.com",
+  "category": "Online Retailer",
+  "date": 2021,
+  "image": ["images/pb1.png", "images/pb2.png"],
+  "projectSource": "https://www.prezzybox.com/",
+  "background-color": "#d892ec",
+  "description": "I was part of Prezzybox tech team from 2019 to 2021. During that time I was involved in developing many user facing features such as revamp of their mobile navigation or imporovement of product personalisation features. Additionally I worked on myQdos which is a HR platform owned by Prezzybox. It allows managing employee leave, incentivising staff and monitoring individual targets.",
+  "alt": true
+},
+{
+  "id": 8,
+  "title": "About"
+},
+{
+  "id": 9,
+  "title": "UKBIC",
+  "category": "Web development / Wordpress",
+  "date": 2018,
+  "image": ["images/ukbic.png", "images/ukbic2.png", "images/ukbic3.png"],
+  "projectSource": "https://www.ukbic.co.uk/",
+  "background-color": "#2c2d77"
+},
+{
+  "id": 10,
+  "title": "Typography project",
+  "category": "University Assignment",
+  "date": 2017,
+  "image": ["images/typography2.png", "images/typography.png", "images/typography3.png"],
+  "projectSource": "https://youtu.be/RiVRDf9o-_o",
+  "background-color": "black"
+},
+{
+  "id": 11,
+  "title": "Edward Knight",
+  "category": "Web development / Wordpress",
+  "date": 2019,
+  "image": ["images/EdKnight.png", "images/EdKnight2.png", "images/EdKnight3.png"],
+  "projectSource": "http://edwardknight.uk.w3pcloud.com/",
+  "background-color": "#ffc200"
+},
+{
+  "id": 12,
+  "title": "Car Browser App",
+  "category": "Web development / AngularJS",
+  "date": 2018,
+  "image": ["images/CarApp1.png", "images/CarApp2.png", "images/CarApp3.png"],
+  "projectSource": "https://adammo14.github.io",
+  "background-color": "#008966"
+},
+{
+  "id": 13,
+  "title": "Contact"
+}]
