@@ -28,12 +28,13 @@
 },
 {
   "id": 4,
-  "title": "Personality chatroom",
-  "category": "University Assignment",
-  "date": 2018,
-  "image": ["images/ChatApp.png", "images/ChatApp2.png", "images/ChatApp3.png"],
-  "projectSource": "https://www.u-map.co.uk/",
-  "background-color": "#545454"
+  "title": "F1 Tracks App",
+  "category": "Personal Project",
+  "date": 2021,
+  "image": ["images/f1tracks.png", "images/ChatApp2.png", "images/ChatApp3.png"],
+  "projectSource": "https://github.com/adammo14/F1-Tracks-App",
+  "background-color": "#545454",
+  "description": "At the start of 2021, I began learning TypeScript as I wanted to start building projects with the latest versions of modern front end frameworks. I used a google API and historical data from Formula 1 to put together a map overlayed with pins showing each F1 track from a given year as well as standings table."
 },
 {
   "id": 5,
