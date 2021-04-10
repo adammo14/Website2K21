@@ -79,11 +79,11 @@
 },
 {
   "id": 10,
-  "title": "Typography project",
-  "category": "University Assignment",
-  "date": 2017,
-  "image": ["images/typography2.png", "images/typography.png", "images/typography3.png"],
-  "projectSource": "https://youtu.be/RiVRDf9o-_o",
+  "title": "Angular 2+ To Do App",
+  "category": "Personal Project",
+  "date": 2021,
+  "image": ["images/todo.png"],
+  "projectSource": "https://todo-app-adam2k21.herokuapp.com",
   "background-color": "black"
 },
 {
