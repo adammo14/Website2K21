@@ -82,9 +82,10 @@
   "title": "Angular 2+ To Do App",
   "category": "Personal Project",
   "date": 2021,
-  "image": ["images/todo.png"],
+  "image": ["images/todo1.png"],
   "projectSource": "https://todo-app-adam2k21.herokuapp.com",
-  "background-color": "black"
+  "background-color": "black",
+  "description": "At the begining of 2021 I started spending more time trying to learn and master the latest version of Angular framework. This is a basic 'To-Do' app which demonstrates CRUD operations using Angular 10 as well as understanding of backend using NodeJS. The plan is to extend this app with Angular Materials to make it look and feel more modern."
 },
 {
   "id": 11,
