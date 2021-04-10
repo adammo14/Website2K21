@@ -805,7 +805,7 @@ md-fab-speed-dial.md-fab-top-right {
 
 .item10 .front {
     background-image: url('../images/todo.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
@@ -846,7 +846,9 @@ md-fab-speed-dial.md-fab-top-right {
 }
 
 /* ITEM13 */
-.item13 {}
+.item13 {
+    background-color: #007bff;
+}
 
 .item13 .front {
     background-image: url('../images/contactV3.png');
@@ -858,7 +860,7 @@ md-fab-speed-dial.md-fab-top-right {
 }
 
 .item13 .back .item-title {
-    color: #494949;
+    color: white;
 }
 
 /*** Portfolio ***/
